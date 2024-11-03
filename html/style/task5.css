@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+
+    background-color: #eee;
+display: inline-block;
+
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+ 
+    margin: 0;
+/* overflow-x:hidden  ; */
+
+
+}
+
+.card{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+
+width: 48%;
+float: left;
+margin-left: 2%;
+
+
+}
+#clear{
+
+    clear: both;
+}
+.striped{
+margin-left: 2%;
+
+}
+
+h2 {
+    font-size: 18px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-size: 15px;
+    color: #333333;
+}
+
+th {
+    font-weight: bold;
+    color: #666666;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.status {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+ 
+
+ 
+  
+ .container {
+    width: 100%;
+     overflow: hidden;
+   display: inline-block;
+
+ margin-left:5px;
+   margin-top: 20px;
+} 
+/* 
+
+  */
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+ 
+table {
+    width: 100%;
+    border-collapse: collapse;
+} 
+
+
+th {
+    background-color: #f4f4f4;
+} 
+
+
+a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.confirmed {
+    color: white;
+  
+    background-color: #28a745;
+}
+
+.waiting {
+    color: white;
+    background-color: #ffc107;
+}
+
+.cancelled {
+    color:white;
+    background-color: #dc3545;
+}
+.table{
+
+    color: #dc3545;
+}

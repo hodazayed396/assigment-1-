@@ -1,0 +1,26 @@
+
+
+.container {
+    width: 100%;
+    overflow: hidden; /* To contain floated elements */
+    background-color: #800080; /* Background color for container */
+   
+    
+}
+
+.box {
+    float: left;
+    width:30%;
+    margin: 1.66%;
+    background-color: #00ffff; 
+    height: 200px;
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box; 
+   
+   
+} 
+
+.box:nth-child(3n) {
+    margin-right: 0;
+}

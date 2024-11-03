@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+ 
+.button-container {
+    overflow: hidden; /* To contain floated buttons */
+} 
+
+.btn {
+    float: left;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #007bff;
+}
+
+.secondary {
+    background-color: #6c757d;
+}
+
+.success {
+    background-color: #28a745;
+}
+
+.info {
+    background-color: #17a2b8;
+}
+
+.warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.danger {
+    background-color: #dc3545;
+}
+
+.dark {
+    background-color: #343a40;
+}
+
+.btn:last-child {
+    margin-right: 0; /* Remove margin for the last button */
+}
